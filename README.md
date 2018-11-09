@@ -1,8 +1,4 @@
-# Chat APP
+# wkndswap
 
-# Technolgies:
-
---- React App
---- Using firebase Database
-
-
+## Technologies:
+-- using reactJS , react bootstrap, Firebase
