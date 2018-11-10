@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-
+import './login.css'
 
 const intialstate = {
     username:'',
@@ -12,6 +12,7 @@ class Login extends Component {
         super()
         this.myForm = React.createRef()
     }
+    
     state={
         ...intialstate
     }
@@ -44,25 +45,31 @@ class Login extends Component {
 
 
         return(
-            <div style = {{maxWidth:"10%", margin:"3rem auto"}}>
-            <form ref={this.myForm} onSubmit={this.onSubmit}>
+            <div className="parent">
+            <div style = {{maxWidth:"40%", margin:"150px"}}>
+            <form classname="login-form" ref={this.myForm} onSubmit={this.onSubmit}>
                 {errorMessage}
+            <div className="login-header">
+            <img className="login-logo" alt="" src=""/>
+            </div>
             <div className={"form-group"}>
-                <level htmlFor="username">Username</level>
+                <level htmlFor="username"></level>
                 <input
                     type="text"
                     className="form-control"
                     name="username"
+                    placeholder="username"
                     onChange={this.onChange}
                     value={this.state.username}/>
             </div>
 
             <div className={"form-group"}>
-                <level htmlFor="password">Password</level>
+                <level htmlFor="password"></level>
                 <input
                     type="text"
                     className="form-control"
                     name="password"
+                    placeholder="password"
                     onChange={this.onChange}
                     value={this.state.password}/>
             </div>
@@ -72,6 +79,7 @@ class Login extends Component {
                 value="Login"/>
 
             </form>
+            </div>
             </div>
             )
     }
