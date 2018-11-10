@@ -4,11 +4,9 @@
   "private": true,
   "dependencies": {
     "firebase": "^5.5.3",
-    "moment": "^2.22.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "whatwg-fetch": "^3.0.0"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
