@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 
 import './App.css';
-import Login from './components/log/login';
+import Login from './components/log/login'
 
 class App extends Component {
 
