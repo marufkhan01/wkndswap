@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import {Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap'
+import { Navbar,Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 
 
 
-class Navbar extends Component {
-
-
+class MainNavbar extends Component {
 
     render(){
 
@@ -15,7 +13,6 @@ class Navbar extends Component {
                     <Navbar.Brand>
                         <a href="#brand">wkndswap</a>
                     </Navbar.Brand>
-                    <Navbar.Toggle />
 
                 </Navbar.Header>
                 <Navbar.Collapse>
@@ -27,7 +24,7 @@ class Navbar extends Component {
                             <a href="#About">How it works?</a>
                         </NavItem>
                         <NavItem eventKey={3} href="#">
-                            <a href="#Contact">Destinations</a>
+                            <a href="#Destinations">Destinations</a>
                         </NavItem>
                         <NavItem eventKey={4} href="#">
                             <a href="#Help">Help!</a>
@@ -45,4 +42,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar
+export default MainNavbar
