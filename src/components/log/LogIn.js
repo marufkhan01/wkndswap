@@ -47,13 +47,13 @@ class Login extends Component {
         return(
             <div className="parent">
             <div style = {{maxWidth:"40%", margin:"150px"}}>
-            <form classname="login-form" ref={this.myForm} onSubmit={this.onSubmit}>
+            <form className="login-form" ref={this.myForm} onSubmit={this.onSubmit}>
                 {errorMessage}
             <div className="login-header">
             <img className="login-logo" alt="" src=""/>
             </div>
             <div className={"form-group"}>
-                <level htmlFor="username"></level>
+                {/* <level htmlFor="username"></level> */}
                 <input
                     type="text"
                     className="form-control"
@@ -64,7 +64,7 @@ class Login extends Component {
             </div>
 
             <div className={"form-group"}>
-                <level htmlFor="password"></level>
+                {/* <level htmlFor="password"></level> */}
                 <input
                     type="text"
                     className="form-control"

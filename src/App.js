@@ -3,13 +3,9 @@ import React, { Component } from 'react'
 
 import './App.css';
 import MainNavbar from './components/mainNavbar'
-import Login from './components/log/login'
+import Login from './components/log/Login'
 
 class App extends Component {
-
-  
-
-  
   render() {
     return (
       <div className="app">

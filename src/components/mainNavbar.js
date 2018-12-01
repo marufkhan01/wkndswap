@@ -15,7 +15,7 @@ class MainNavbar extends Component {
                     </Navbar.Brand>
 
                 </Navbar.Header>
-                <Navbar.Collapse>
+                {/* <Navbar.Collapse>
                     <Nav>
                         <NavItem eventKey={1} href="#">
                             <a href="#Home">Home</a>
@@ -36,7 +36,7 @@ class MainNavbar extends Component {
 
                         </NavDropdown>
                     </Nav>
-                </Navbar.Collapse>
+                </Navbar.Collapse> */}
             </Navbar>
         )
     }
