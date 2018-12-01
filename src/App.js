@@ -12,7 +12,6 @@ class App extends Component {
           <MainNavbar />
           <Login onSubmit={this.onSubmit}/>
       </div>
-         
     )
   }
 }

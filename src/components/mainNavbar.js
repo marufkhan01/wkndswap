@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Navbar,Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
-
-
+import Logo from '../images/wkndswapLogo.png';
 
 class MainNavbar extends Component {
 
@@ -11,11 +10,11 @@ class MainNavbar extends Component {
             <Navbar inverse collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#brand">wkndswap</a>
+                        <a href="#brand"><img src={Logo} width="200" height="200" alt=""></img></a>
                     </Navbar.Brand>
 
                 </Navbar.Header>
-                {/* <Navbar.Collapse>
+                <Navbar.Collapse>
                     <Nav>
                         <NavItem eventKey={1} href="#">
                             <a href="#Home">Home</a>
@@ -36,7 +35,7 @@ class MainNavbar extends Component {
 
                         </NavDropdown>
                     </Nav>
-                </Navbar.Collapse> */}
+                </Navbar.Collapse>
             </Navbar>
         )
     }
