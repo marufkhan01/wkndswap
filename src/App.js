@@ -10,7 +10,7 @@ class App extends Component {
       <div className="app">
           <MainNavbar />
           <Login onSubmit={this.onSubmit}/>
-          <Contact />
+          <Contact/>
       </div>
     )
   }
