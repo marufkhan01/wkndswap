@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './App.css';
 import MainNavbar from './components/nav/mainNavbar'
-import Login from './components/log/Login'
+import Login from './components/log/login'
+import Contact from './components/contact/contact'
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="app">
           <MainNavbar />
           <Login onSubmit={this.onSubmit}/>
+          <Contact />
       </div>
     )
   }
