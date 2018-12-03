@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Navbar,Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
-import Logo from '../images/wkndswapLogo.png';
 
 class MainNavbar extends Component {
 
@@ -10,23 +9,23 @@ class MainNavbar extends Component {
             <Navbar inverse collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#brand"><img src={Logo} width="200" height="200" alt=""></img></a>
+                        {/* <a href="#brand"></a> */}
                     </Navbar.Brand>
 
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav>
                         <NavItem eventKey={1} href="#">
-                            <a href="#Home">Home</a>
+                            {/* <a href="#Home">Home</a> */}
                         </NavItem>
                         <NavItem eventKey={2} href="#">
-                            <a href="#About">How it works?</a>
+                            {/* <a href="#About">How it works?</a> */}
                         </NavItem>
                         <NavItem eventKey={3} href="#">
-                            <a href="#Destinations">Destinations</a>
+                            {/* <a href="#Destinations">Destinations</a> */}
                         </NavItem>
                         <NavItem eventKey={4} href="#">
-                            <a href="#Help">Help!</a>
+                            {/* <a href="#Help">Help!</a> */}
                         </NavItem>
                         <NavDropdown eventKey={5} title="Dropdown" id ="basic-nav-dropdown">
                         <MenuItem eventKey={5.1}>Home</MenuItem>

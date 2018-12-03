@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 
 import './App.css';
-import MainNavbar from './components/mainNavbar'
+import MainNavbar from './components/nav/mainNavbar'
 import Login from './components/log/Login'
 
 class App extends Component {
