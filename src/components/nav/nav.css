@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+
+    .navbar {
+        border: none;
+        width: 100%;
+        /* opacity: 0.5; */
+        /* background-color: #FECC00; */
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 41px;
+        padding-bottom: 15px;
+        display: block;
+        
+    }
+
+    .nav {
+        padding: none;
+        float: right;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+}

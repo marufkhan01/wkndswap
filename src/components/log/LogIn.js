@@ -59,7 +59,7 @@ class Login extends Component {
                         type="text"
                         className="form-control"
                         name="username"
-                        placeholder="username"
+                        placeholder="Username"
                         onChange={this.onChange}
                         value={this.state.username}/>
                 </div>
@@ -70,7 +70,7 @@ class Login extends Component {
                         type="text"
                         className="form-control"
                         name="password"
-                        placeholder="password"
+                        placeholder="Password"
                         onChange={this.onChange}
                         value={this.state.password}/>
                 </div>

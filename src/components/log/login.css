@@ -1,4 +1,5 @@
 .parent {
+    /* display: none; */
     position: absolute;
     margin: auto;
     top: 0;
@@ -6,8 +7,11 @@
     bottom: 0;
     left: 0;
     background-color: #fff;
-    max-width: 40%;
-    max-height: 70%;
+    /* max-width: 30%;
+    max-height: 70%; */
+    border: 1px solid;
+    padding: 10px;
+    /* box-shadow: 5px 10px 8px 10px #888888; */
   }
 
   
@@ -20,7 +24,8 @@
     position: relative;
     display: block;
     margin : 0 auto;
-    width: 270px;
+    width: 70%;
+    /* Change to % for responsiveness */
     height: 100px;
   }
 
