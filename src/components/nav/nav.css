@@ -7,21 +7,25 @@
         /* background-color: #FECC00; */
     }
 
-    .navbar-nav>li>a {
+    .navbar-brand .navbar-nav>li>a {
         padding-top: 41px;
         padding-bottom: 15px;
-        display: block;
+        display: inline;
         
     }
 
     .nav {
-        padding: none;
+        padding:10px;
         float: right;
     }
 
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
+    .navbar-brand .navbar-brand:hover {
+        color: white;
+        background-color: transparent;
+        margin-bottom: 0;
+        margin:0;
+        padding:0;
       }
+      
+
 }
