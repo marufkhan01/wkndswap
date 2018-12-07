@@ -34,6 +34,7 @@ class MainNavbar extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>
+
         </Navbar>
          )
     }
